@@ -3,7 +3,7 @@
 An exploratory, fully reproducible analysis asking whether childhood temperature exposure
 (ages 6–16) leaves a trace in adult prefrontal cortex (PFC) structural connectivity.
 
-**Short answer: no.** Using a real, verified 250-year historical weather record and N=86
+Using a real, verified 250-year historical weather record and N=86
 participants, we found no statistically supported association, across eight independent
 robustness checks (VIF, alternative model setups, age-residualization, HC3-robust inference,
 permutation testing, a zero-inclusive connectivity definition, multiple-comparison correction,
@@ -33,7 +33,7 @@ sources matter before reporting a finding.
 3. Run all cells top to bottom.
 
 The notebook will refuse to run if `prague_klementinum_annual.csv` (the real climate data) is
-missing — it does not fall back to placeholder data, on purpose.
+missing. It does not fall back to placeholder data, on purpose.
 
 ## Data sources
 
@@ -48,8 +48,3 @@ missing — it does not fall back to placeholder data, on purpose.
 If you use this pipeline or build on this analysis, please cite the manuscript in
 `manuscript/` (full citation to be added once published) and acknowledge the original data
 sources above.
-
-## License
-
-[Optional — e.g., MIT for code, or "All rights reserved" until the manuscript is published.
-Add a LICENSE file if you choose one.]
